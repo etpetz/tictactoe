@@ -1,0 +1,9 @@
+.block {
+    border:1px solid black;
+    height:50px;
+    width:50px;
+    font:36pt helvetica;
+    color:gray;
+    margin:auto;
+    text-align:center;
+}
