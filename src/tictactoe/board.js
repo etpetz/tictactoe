@@ -44,10 +44,14 @@ export const Board = function ({ blocks, onValueChange }) {
     function showWelcome() {
 
         return (
+        	<div>
             <div class="thing-container">
             welcome to the thunderdome
             <p><button onClick={function () {setGameStarted(true)}}>start game</button></p>
                 </div>
+			<div class="thing-container">
+            	x and o will alternate who goes first
+            </div>
             )
     }
 
